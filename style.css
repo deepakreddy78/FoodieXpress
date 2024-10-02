@@ -1,0 +1,77 @@
+:root {
+    /* Primary Color */
+    --primary-color: #048E7B;
+  
+    --background-color : #023931 ;
+  
+    /* Backgrocund */
+    --white-color: #ffffff; 
+  
+    /* Accent Gray */
+    --heading-text: #000;
+  
+    /* Text and Secondary Elements */
+    --text-color: #333;
+  
+    /* Divider Lines */
+  }
+.bg-container{
+    height:100vh;
+
+}
+.navbar{
+    width: 100vw;
+    background-color: var(--background-color);
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+.navbar ul li{
+  list-style: none; 
+  display: inline-block;
+  padding-right: 12px;
+  
+}
+.hero{
+  width: 100vw;
+    background-color: #023931;
+}
+.order-btn{
+    background-color:var(--primary-color) !important;
+}
+.item-info{
+  color: #767676;
+}
+.order-btn{
+  background-color: var(--primary-color);
+}
+.icons{
+  background-color: #048E7B;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 4px 4px 4px 8px;
+}
+.review{
+  background-color:var(--background-color);
+
+}
+.review-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+.hhrr{
+  background-color: black;
+  height: 2px;
+}
+.foot-info{
+  font-weight: 500;
+  color: #767676;
+}
+
+
+
